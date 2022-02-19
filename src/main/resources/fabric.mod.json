@@ -5,16 +5,17 @@
   "name": "Addon Template",
   "description": "An addon template for the Meteor Addon API.",
   "authors": [
-    "seasnail8169"
+    "seasnail8169",
+    "Chaoten"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/ChaotenHG/meteor-kotlin-addon-template"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "meteordevelopment.addons.template.TemplateAddon"
+      "dummy.addon.template.TemplateAddon"
     ]
   },
   "mixins": [
@@ -24,9 +25,8 @@
     "meteor-client:color": "225,25,25"
   },
   "depends": {
-    "java": ">=16",
-    "minecraft": ">=@mc_version@",
-    "meteor-client": "0.4.5",
-    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10"
+    "java": ">=17",
+    "minecraft": ">=1.18",
+    "meteor-client": "*"
   }
 }
